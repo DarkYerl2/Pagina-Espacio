@@ -11,25 +11,25 @@ function Hero() {
       <h1>¿QUE ESPERAS?</h1>
       <p> Descrubre lo asombroso que es el espacio!</p>
       <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          Planetas
-        </Button>
-        <Link to='/about'>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-          
-        >
-
-           Trailer <i className='far fa-play-circle'/>
-        </Button>
+        <Link to="/planets">
+          <Button
+            className="btns"
+            buttonStyle="btn--outline"
+            buttonSize="btn--large"
+          >
+            Planetas
+          </Button>
         </Link>
-        
+
+        <Link to="/about">
+          <Button
+            className="btns"
+            buttonStyle="btn--primary"
+            buttonSize="btn--large"
+          >
+            Trailer <i className="far fa-play-circle" />
+          </Button>
+        </Link>
       </div>
     </div>
   );

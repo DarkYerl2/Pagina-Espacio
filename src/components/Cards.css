@@ -8,11 +8,12 @@
   }
   
   .cards__container {
+    
     display: flex;
     flex-flow: column;
     align-items: center;
     max-width: 100%;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
   
