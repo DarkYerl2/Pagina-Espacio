@@ -7,7 +7,7 @@
 
 .inicio,
 .planets,
-.about,
+.container-about,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -25,13 +25,19 @@
   font-size: 100px;
 }
 
-.about{
-  background-image: url('./images/imagen-1.jpg');
+.container-about{
+  background-image: url('./images/imagen3.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.about-item > h5{
+    color: white;
+    font-size: 30px;
+    margin-bottom:  28px;
 }
 
 .sign-up {
