@@ -2,7 +2,7 @@ import React from 'react';
 import '../Cards.css';
 import CardItem from '../CardItem';
 
-function Planets() {
+export default function Planets() {
   return (
       
      
@@ -39,6 +39,9 @@ function Planets() {
               label='Marte'
               path='/planets'
             />
+            </ul>
+
+            <ul className='cards__items'>
             <CardItem
               src='images/jupiter.jpg'
               text='Jupiter es un gigante gaseoso que forma parte de los denominados planetas exteriores'
@@ -51,6 +54,9 @@ function Planets() {
               label='Saturno'
               path='/planets'
             />
+            </ul>
+
+            <ul className='cards__items'>
             <CardItem
               src='images/urano.jpg'
               text=' Se llama así en honor de la divinidad griega del cielo Urano, el padre de Crono y el abuelo de Zeus.'
@@ -63,11 +69,11 @@ function Planets() {
               label='Neptuno'
               path='/planets'
             />
-          </ul>
+            </ul>
+          
         </div>
       </div>
     </div>
   );
 }
 
-export default Planets;

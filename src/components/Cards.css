@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 7rem;
     background: #fff;
   }
   
@@ -11,7 +11,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 3000px;
+    max-width: 100%;
     width: 90%;
     margin: 0 auto;
   }
@@ -101,7 +101,8 @@
   
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
-      width: 84%;
+      max-width: 84%;
+      
     }
   }
   
