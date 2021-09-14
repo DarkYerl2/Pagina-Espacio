@@ -31,14 +31,41 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 100%;
 }
+
+.about-item {
+  height:60%;
+  width: 55%;
+  position: relative;
+
+  
+}
+
+@media screen and (max-width: 768px) {
+  .about-item {
+      height:48%;
+      width: 80%;
+  }
+}
+
+
 
 .about-item > h5{
     color: white;
     font-size: 30px;
     margin-bottom:  28px;
+    text-align: center;
 }
+
+
+
+  
+
+.video{
+  position: absolute;
+}
+
 
 .sign-up {
   
